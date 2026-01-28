@@ -22,15 +22,11 @@ Detects your current screen resolution via xrandr and resizes wallpapers automat
 
 Converts wallpapers to a safe JPEG format using ImageMagick with optimized settings:
 
-- > resize to your screen resolution
-
-> 
-
-- > gravity center and -extent for perfect cropping
-
-> 
-
-- > strip, -interlace none, -sampling-factor 4:4:4, -quality 90 for safe GRUB/GDM use
+    - resize to your screen resolution
+    
+    - gravity center and -extent for perfect cropping
+    
+    - strip, -interlace none, -sampling-factor 4:4:4, -quality 90 for safe GRUB/GDM use
 
 5. **Backup Functionality**
 
@@ -48,13 +44,14 @@ Each conversion generates a unique temporary file to avoid overwriting previous 
 
 Make sure dependencies are installed:
 
-> sudo apt install dialog feh x11-xserver-utils imagemagick
-
+```sh
+sudo apt install dialog feh x11-xserver-utils imagemagick
+```
 
 Run the script as root:
-
-> sudo ./kali-gdm-wallpaper-changer.sh
-
+```sh
+sudo ./kali-gdm-wallpaper-changer.sh
+```
 
 Follow the on-screen prompts to select and apply your wallpaper.
 
