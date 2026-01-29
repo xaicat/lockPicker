@@ -2,7 +2,7 @@
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 WALLPAPER_DIR="$SCRIPT_DIR/wallpapers"
-LOCKPICKER="$WALLPAPER_DIR/lockPicker"
+LOCKPICKER="$WALLPAPER_DIR/lockPickerX"
 
 # ----------------------------
 # Dependency check & install
@@ -47,4 +47,4 @@ chmod +x "$LOCKPICKER"
 # Run application
 # ----------------------------
 cd "$WALLPAPER_DIR" || exit 1
-sudo ./lockPicker
+sudo ./lockPickerX
