@@ -1,5 +1,5 @@
 # lockPicker
-Changes your Kali Screenlock Background
+GDM Wallpaper Changer - Changes your Kali Screenlock Background
 ### lockPicker - v1.0.0
 **Release Date:** 28 Jan 2026
 A simple, interactive Bash script to change your Kali Linux GDM login background easily with a GUI and safe image conversion.
@@ -50,7 +50,7 @@ sudo apt install dialog feh x11-xserver-utils imagemagick
 
 Run the script as root:
 ```sh
-sudo ./kali-gdm-wallpaper-changer.sh
+sudo ./lockPicker.sh
 ```
 
 Follow the on-screen prompts to select and apply your wallpaper.
